@@ -1,0 +1,316 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  color: #d44d86; }
+
+.container {
+  max-width: 100%; }
+
+.top-index {
+  background-image: url(../imagenes/bg_destinos.jpg);
+  width: 100%;
+  height: 372px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  margin-bottom: 20px; }
+
+/*cuadrados de pantalla*/
+h2 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+h3 {
+  text-align: center;
+  color: #725132; }
+
+h4 {
+  text-align: center;
+  color: #b83030; }
+
+hr {
+  border-style: outset; }
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #725132; }
+
+div p {
+  color: brown; }
+
+.Colorparrafos {
+  color: green; }
+
+th {
+  font-family: 'Ubuntu', sans-serif;
+  color: #070707;
+  font-size: 16px;
+  background-color: #8c97a0; }
+
+body {
+  background-color: white; }
+
+#contenido {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto; }
+
+/*menú*/
+.menu-index {
+  list-style-type: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  height: auto;
+  margin-bottom: 2px;
+  margin: 0px; }
+
+/*icono redes sociales*/
+.card, .card-shadow {
+  width: 30%;
+  flex: direction 20px;
+  margin: 10px; }
+
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.card-gradient:hover {
+  background-color: #b5e785; }
+
+.button-send {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  background-color: #2b77eb;
+  color: white; }
+
+.button-clear {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  background-color: #414141;
+  color: white; }
+
+.grid__infolegal {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center; }
+  .grid__infolegal__left {
+    padding: 10px;
+    flex: 50%; }
+    .grid__infolegal__left__right {
+      padding: 10px;
+      flex: 50%; }
+
+.grid__infolegal > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px; }
+
+.card:hover, .card-shadow:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+/* Ul del menu-index */
+.menu-index ul {
+  position: absolute;
+  display: none; }
+  .menu-index ul li {
+    display: block; }
+    .menu-index ul li li:hover ul {
+      display: block; }
+
+.documentacionrequerida {
+  list-style-type: circle; }
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px; }
+
+@media screen and (max-width: 992px) {
+  .top-index {
+    background-image: url(../imagenes/bg_destinos.jpg);
+    width: 100%;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%; } }
+
+/*inicio tabla de servicios*/
+/*botones*/
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #b83030;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center; }
+
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #d6975d; }
+
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 20%; }
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px; }
+
+.row {
+  margin: 0 -5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*imagenes index tienda online*/
+.card, .card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+  position: relative; }
+
+.card:hover, .card-shadow:hover {
+  background-color: #b5e785; }
+
+.card-footer {
+  position: absolute;
+  bottom: 50px;
+  left: 25%; }
+
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: snow;
+  width: 300px;
+  height: 350px;
+  position: relative;
+  background-image: linear-gradient(to bottom, #b5e785, #c6df99); }
+
+.card2:hover {
+  transform: scale(1, 1.2); }
+
+.cardimagen:hover {
+  transform: translate(10px, 20px); }
+
+/*texto tienda online*/
+.textTienda {
+  text-align: center;
+  font-style: oblique;
+  font-weight: 700px;
+  font-size: 50px;
+  color: #b83030; }
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.documentacion__inicio {
+  margin: 0%; }
+  .documentacion__inicio__requerida {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6a384; }
+  .documentacion__inicio__cuerpo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e6a384; }
+
+.li__footer__redsocial {
+  margin: none; }
+  .li__footer__redsocial__fitl {
+    color: blue; }
+
+.footer__redsocial {
+  position: relative;
+  margin-top: 2px;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  bottom: 10%; }
+  .footer__redsocial__li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 2rem;
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto; }
+  .grid__container__traslados:hover {
+    transform: scale(1, 1.2);
+    margin-top: 20px; }
+
+.tarjeta {
+  background-color: #d7f0bb;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+  .tarjeta__img {
+    width: 300px;
+    height: 180px;
+    margin-right: 30px; }
+  .tarjeta__titulo {
+    font-size: 1.5rem;
+    margin-bottom: 20px; }
+  .tarjeta__titulo--uppercase {
+    text-transform: uppercase; }
+  .tarjeta__parrafo {
+    line-height: 28px;
+    font-size: 1rem; }
