@@ -295,10 +295,9 @@ body {
     margin-top: 20px; }
 
 .tarjeta {
-  background-color: #d7f0bb;
+  background-image: url(https://us.123rf.com/450wm/nataliyabykova/nataliyabykova1405/nataliyabykova140500007/30210337-inusual-fondo-en-colores-pastel-multicolor-con-la-luz-rosa-al-azar-manchas-azules-verdes-y-p%C3%BArpuras-abst.jpg?ver=6);
   border-radius: 15px;
   padding: 20px;
-  display: flex;
   align-items: center;
   position: relative;
   margin-bottom: 50px; }
